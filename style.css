@@ -1,0 +1,76 @@
+        /* Reset dei margini e del padding per tutti gli elementi */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Stili per il contenitore principale */
+        .container {
+            max-width: 1200px; /* Larghezza massima del contenitore */
+            margin: 0 auto; /* Centra il contenitore orizzontalmente */
+            padding: 0 20px; /* Spaziatura interna del contenitore */
+        }
+
+        /* Stili per l'intestazione superiore */
+        .top-header {
+            background: #0c1e3b;
+            color: #fff;
+            padding: 10px 0;
+            font-family: Arial, sans-serif; /* Font family per il testo */
+        }
+
+        .top-header a {
+            color: #fff;
+            text-decoration: underline;
+            cursor: pointer;
+            font-size: 0.9em;
+        }
+
+        /* Stili per l'intestazione principale */
+        header {
+            background: #004080;
+            color: #fff;
+            padding: 20px 0;
+            font-family: Arial, sans-serif; /* Font family per il testo */
+        }
+
+        header h1 {
+            text-align: center;
+            font-size: 2.5em; /* Dimensione del titolo */
+        }
+
+        nav ul {
+            list-style: none;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2em; /* Dimensione del testo dei link */
+        }
+
+        /* Stili per la sezione hero */
+        .hero {
+            background: #f4f4f4;
+            padding: 40px 0;
+            text-align: center;
+            font-family: Arial, sans-serif; /* Font family per il testo */
+        }
+
+        .hero h2 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.4em;
+        }
